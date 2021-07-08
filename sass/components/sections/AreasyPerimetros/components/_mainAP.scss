@@ -1,0 +1,15 @@
+.mainAP{
+    grid-row: 2;
+    align-self: center;
+
+    &__buttonsAP{
+        display: flex;
+        flex-direction: column;
+        height: 30rem;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+        
+}

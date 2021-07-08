@@ -1,0 +1,14 @@
+mixin buttonAP(source,text,ref, link)
+    a.buttonNav.buttonAP(href=link)
+        img(src=source, alt=ref)
+        p #{text}
+
+
+main.mainAP 
+    section.mainAP__buttonsAP
+        +buttonAP("/Matematicas/assets/triangle.svg", "Triangulo", "Triangle icon", "#")
+        +buttonAP("/Matematicas/assets/square.svg", "Cuadrado", "Square icon", "#")
+        +buttonAP("/Matematicas/assets/rectangle.svg", "Rectangulo", "Rectangle icon", "#")
+        +buttonAP("/Matematicas/assets/circle.svg", "Circulo", "Circle icon", "#")
+
+    

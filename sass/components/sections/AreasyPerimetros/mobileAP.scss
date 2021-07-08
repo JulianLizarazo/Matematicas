@@ -1,0 +1,17 @@
+@import "../../global";
+@import "./components/globalAP";
+
+body{
+    font-family: $font-family;
+    display: grid;
+    grid-template-rows: 52px 528px 87px;
+}
+
+@import "./components/headerAP";
+@import "./components/mainAP";
+@import "./components/footerAP";
+
+
+
+
+

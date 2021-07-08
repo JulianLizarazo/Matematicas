@@ -1,0 +1,26 @@
+@import "../../../global";
+@import "./globalAP";
+
+.footerAP{
+    grid-row: 3;
+    background-color: $dark-primary-color;
+    font-size: 1.4rem;
+    
+    &--credits{
+        display: inline-block;
+        margin: 23px 0 0 15px;
+        color: $text-color;
+        line-height: 22px;
+            
+    }
+        
+    &--github{
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        margin-block-start: 23px;
+         right: 15px;
+            
+    }
+
+}    
