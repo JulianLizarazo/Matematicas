@@ -1,0 +1,38 @@
+$font-family: 'Overpass', sans-serif;
+$dark-primary-color: #1976D2;
+$light-primary-color: #BBDEFB;
+$primary-color: #2196F3;
+$text-color: #FFFFFF;
+$accent-color: #536DFE;
+$primary-text: #212121;
+$secondary-text: #2196F3;
+$divider-color: #757575;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.buttonNav{
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: $dark-primary-color;
+    color: $text-color;
+    width: 24.8rem;
+    height: 6.1rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    &:active{
+        background-color: $light-primary-color;
+    }
+    
+}
