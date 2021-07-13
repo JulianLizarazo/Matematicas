@@ -1,30 +1,30 @@
 
 <main class="mainTriangle">
   <section class="mainTriangle__title">
-    <h2 class="mainTriangle__title--h2">Area y Perimetro del Triangulo </h2><img class="mainTriangle__title--img" src="/Matematicas/assets/triangle-img.svg" alt="Triangle image"/>
+    <h2 class="figureTitle">Area y Perimetro del Triangulo</h2><img class="figureImg" src="/Matematicas/assets/triangle-img.svg" alt="Triangle image"/>
   </section>
   <section class="mainTriangle__area"> 
     <h3 class="mainTriangle__area--h3">Area</h3>
     <form class="mainTriangle__area-form" action="">
-      <label class="mainTriangle__area-form-label" for="InputBase">Base:</label>
-      <input class="mainTriangle__area-form-input" id="InputBase" type="number"/>
-      <label class="mainTriangle__area-form-label" for="InputHeight">Altura:</label>
-      <input class="mainTriangle__area-form-input" id="InputBase" type="number"/>
-      <button class="mainTriangle__area-form-button">Calcular</button>
-      <p id="ResultArea"> </p>
+      <label class="form__label" for="InputBase">Base:</label>
+      <input class="form__input" id="InputBase" type="number"/>
+      <label class="form__label" for="InputHeight">Altura:</label>
+      <input class="form__input" id="InputHeight" type="number"/>
+      <button class="buttonCalc" type="button" onclic="">Calcular </button>
+      <p class="mainTriangle__area-form-p" id="ResultArea"> </p>
     </form>
   </section>
   <section class="mainTriangle__perimeter"> 
     <h3 class="mainTriangle__perimeter--h3">Perimetro</h3>
     <form class="mainTriangle__perimeter-form" action="">
-      <label class="mainTriangle__perimeter-form-label" for="InputA">Lado A:   </label>
-      <input class="mainTriangle__perimeter-form-input" id="InputA" type="number"/>
-      <label class="mainTriangle__perimeter-form-label" for="InputB">Lado B: </label>
-      <input class="mainTriangle__perimeter-form-input" id="InputB" type="number"/>
-      <label class="mainTriangle__perimeter-form-label" for="InputC">Lado C:</label>
-      <input class="mainTriangle__perimeter-form-input" id="InputC" type="number"/>
-      <button class="mainTriangle__perimeter-form-button">Calcular</button>
-      <p id="ResultPerimeter">                   </p>
+      <label class="form__label" for="InputA">Lado A:</label>
+      <input class="form__input" id="InputA" type="number"/>
+      <label class="form__label" for="InputB">Lado B:</label>
+      <input class="form__input" id="InputB" type="number"/>
+      <label class="form__label" for="InputC">Lado C:</label>
+      <input class="form__input" id="InputC" type="number"/>
+      <button class="buttonCalc" type="button" onclic="">Calcular </button>
+      <p class="mainTriangle__perimeter-form-p" id="ResultPerimeter">                   </p>
     </form>
   </section>
 </main>

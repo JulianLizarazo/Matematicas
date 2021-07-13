@@ -1,38 +1,41 @@
+mixin figureTitle(title,imgSrc,imgAlt)
+    h2.figureTitle #{title}
+    img.figureImg(src=imgSrc, alt=imgAlt)
+
+mixin form(text, inputID)
+    label.form__label(for=inputID) #{text}
+    input.form__input(id=inputID, type="number")
+
+mixin buttonCalc(text, onClick)
+    button.buttonCalc(type="button", onclic=onClick) #{text} 
+
+
 main.mainTriangle
     section.mainTriangle__title
-        h2.mainTriangle__title--h2 Area y Perimetro del Triangulo 
-        img.mainTriangle__title--img(src="/Matematicas/assets/triangle-img.svg", alt="Triangle image")
+        +figureTitle("Area y Perimetro del Triangulo", "/Matematicas/assets/triangle-img.svg", "Triangle image")
+        
 
     section.mainTriangle__area 
         h3.mainTriangle__area--h3 Area
 
         form.mainTriangle__area-form(action="")
-            label.mainTriangle__area-form-label(for="InputBase") Base:
-            input.mainTriangle__area-form-input#InputBase(type="number")  
+            
+            +form("Base:", "InputBase")
+            +form("Altura:", "InputHeight")
+            
+            +buttonCalc("Calcular", "")
 
-            label.mainTriangle__area-form-label(for="InputHeight") Altura:
-            input.mainTriangle__area-form-input#InputBase(type="number")
-
-            button.mainTriangle__area-form-button Calcular
-
-            p#ResultArea 
+            p.mainTriangle__area-form-p#ResultArea 
 
     section.mainTriangle__perimeter 
         h3.mainTriangle__perimeter--h3 Perimetro
 
         form.mainTriangle__perimeter-form(action="")
-            label.mainTriangle__perimeter-form-label(for="InputA") Lado A:   
 
-            input.mainTriangle__perimeter-form-input#InputA(type="number")  
+            +form("Lado A:", "InputA")
+            +form("Lado B:", "InputB")
+            +form("Lado C:", "InputC")
+            
+            +buttonCalc("Calcular", "")
 
-            label.mainTriangle__perimeter-form-label(for="InputB") Lado B: 
-
-            input.mainTriangle__perimeter-form-input#InputB(type="number")
-
-            label.mainTriangle__perimeter-form-label(for="InputC") Lado C:
-
-            input.mainTriangle__perimeter-form-input#InputC(type="number")
-
-            button.mainTriangle__perimeter-form-button Calcular
-
-            p#ResultPerimeter                    
+            p.mainTriangle__perimeter-form-p#ResultPerimeter                    
