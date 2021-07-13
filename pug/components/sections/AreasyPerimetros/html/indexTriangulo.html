@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700&amp;display=swap">
+    <link rel="stylesheet" href="/Matematicas/sass/components/sections/AreasyPerimetros/css/mobileTriangulo.css">
+    <title>Areas y Perimetros</title>
+  </head>
+  <body> 
+    <header class="headerAP"> 
+      <div class="headerAP__info"> <img class="headerAP__info--icon" src="/Matematicas/assets/area.svg" alt="Areas Icon">
+        <p class="headerAP__info--p">Areas y Perímetros</p>
+      </div><img class="headerAP__hamburguer" src="/Matematicas/assets/hamburgericon.svg" alt="">
+    </header>
+    <main class="mainTriangle">
+      <section class="mainTriangle__title">
+        <h2 class="mainTriangle__title--h2">Area y Perimetro del Triangulo </h2><img class="mainTriangle__title--img" src="/Matematicas/assets/triangle-img.svg" alt="Triangle image">
+      </section>
+      <section class="mainTriangle__area"> 
+        <h3 class="mainTriangle__area--h3">Area</h3>
+        <form class="mainTriangle__area-form" action="">
+          <label class="mainTriangle__area-form-label" for="InputBase">Base:</label>
+          <input class="mainTriangle__area-form-input" id="InputBase" type="number">
+          <label class="mainTriangle__area-form-label" for="InputHeight">Altura:</label>
+          <input class="mainTriangle__area-form-input" id="InputBase" type="number">
+          <button class="mainTriangle__area-form-button">Calcular</button>
+          <p id="ResultArea"> </p>
+        </form>
+      </section>
+      <section class="mainTriangle__perimeter"> 
+        <h3 class="mainTriangle__perimeter--h3">Perimetro</h3>
+        <form class="mainTriangle__perimeter-form" action="">
+          <label class="mainTriangle__perimeter-form-label" for="InputA">Lado A:   </label>
+          <input class="mainTriangle__area-perimeter-input" id="InputA" type="number">
+          <label class="mainTriangle__perimeter-form-label" for="InputB">Lado B: </label>
+          <input class="mainTriangle__area-perimeter-input" id="InputB" type="number">
+          <label class="mainTriangle__perimeter-form-label" for="InputC">Lado C:</label>
+          <input class="mainTriangle__area-perimeter-input" id="InputC" type="number">
+          <button class="mainTriangle__area-perimeter-button">Calcular</button>
+          <p id="ResultPerimeter">                   </p>
+        </form>
+      </section>
+    </main>
+    <footer class="footerAP">
+      <p class="footerAP--credits">@ 2021 by Julian Pinilla. <br> All rights reserved.</p><a class="github-link" href="https://github.com/JulianLizarazo" target="_blank"> <img class="footerAP--github" src="/Matematicas/assets/github.svg" alt="Github Icon"></a>
+    </footer>
+  </body>
+</html>
