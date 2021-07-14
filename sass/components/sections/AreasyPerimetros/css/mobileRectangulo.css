@@ -104,36 +104,33 @@ body {
   color: #212121;
 }
 
-.mainTriangle {
+.mainRectangle {
   display: grid;
   grid-template-rows: 188px 392px 588px;
 }
-.mainTriangle__title {
-  grid-row: 1;
+.mainRectangle__title {
   width: 100%;
   height: 100%;
   text-align: center;
 }
-.mainTriangle__area {
+.mainRectangle__area {
   grid-row: 2;
-  width: 100%;
-  height: 100%;
 }
-.mainTriangle__area--h3 {
+.mainRectangle__area--h3 {
   font-size: 1.8rem;
   font-weight: bold;
   color: #1976D2;
   margin-block-start: 3.5rem;
   text-align: center;
 }
-.mainTriangle__area-form {
+.mainRectangle__area-form {
   height: calc(100% - 3.8rem);
   display: flex;
   margin: 1rem 3.2rem 0 3.2rem;
   flex-direction: column;
   justify-content: center;
 }
-.mainTriangle__area-form-p {
+.mainRectangle__area-form-p {
   width: 100%;
   height: 4.5rem;
   margin-block-start: 1.5rem;
@@ -141,24 +138,24 @@ body {
   color: #FFFFFF;
   border-radius: 3px;
 }
-.mainTriangle__perimeter {
+.mainRectangle__perimeter {
   grid-row: 3;
 }
-.mainTriangle__perimeter--h3 {
+.mainRectangle__perimeter--h3 {
   font-size: 1.8rem;
   font-weight: bold;
   color: #1976D2;
   margin-block-start: 3.5rem;
   text-align: center;
 }
-.mainTriangle__perimeter-form {
+.mainRectangle__perimeter-form {
   height: 80%;
   display: flex;
   margin: 0 3.2rem 0 3.2rem;
   flex-direction: column;
   justify-content: center;
 }
-.mainTriangle__perimeter-form-p {
+.mainRectangle__perimeter-form-p {
   width: 100%;
   height: 4.5rem;
   margin-block-start: 1.5rem;

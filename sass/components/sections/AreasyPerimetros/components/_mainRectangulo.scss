@@ -1,0 +1,40 @@
+@import "./globalFigures";
+
+
+.mainRectangle{
+    display: grid;
+    grid-template-rows: 188px 392px 588px;
+
+    &__title{
+        @include title;
+ 
+    }
+
+    &__area{
+        grid-row: 2;
+        &--h3{
+           @include figureH3;
+        }
+
+        &-form{
+           @include formArea;
+        }
+        
+    }
+
+    &__perimeter{
+        grid-row: 3;
+
+        &--h3{
+           @include figureH3;
+        }
+ 
+        &-form{
+            @include formPerimeter;
+             
+        }
+ 
+        
+    }
+
+}

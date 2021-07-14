@@ -1,0 +1,30 @@
+include mixins.pug 
+
+main.mainRectangle 
+    section.mainRectangle__title 
+        +figureTitle("Area y Perimetro del Rectangulo", "/Matematicas/assets/rectangle-image.svg", "Rectangle image")
+
+    section.mainRectangle__area 
+        h3.mainRectangle__area--h3 Area 
+
+        form.mainRectangle__area-form(action="") 
+
+            +form("Base:", "InputBase")
+            +form("Altura:", "InputHeight")
+
+            +buttonCalc("Calcular", "")
+
+            p.mainRectangle__area-form-p#ResultAreaRectangle 
+
+    section.mainRectangle__perimeter 
+        h3.mainRectangle__perimeter--h3 Perimetro 
+
+        form.mainRectangle__perimeter-form(action="")
+            +form("Base:", "InputBase")
+            +form("Altura:", "InputHeight")
+
+            +buttonCalc("Calcular", "")
+            
+            p.mainRectangle__area-form-p#ResultPerimeterRectangle
+
+                        

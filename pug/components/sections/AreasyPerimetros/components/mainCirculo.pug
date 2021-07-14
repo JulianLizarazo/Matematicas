@@ -1,0 +1,28 @@
+include mixins.pug 
+
+main.mainCircle 
+    section.mainCircle__title 
+        +figureTitle("Area y Perimetro del Circulo", "/Matematicas/assets/circle-image.svg", "Circle image")
+
+    section.mainCircle__area 
+        h3.mainCircle__area--h3 Area
+
+        form.mainCircle__area-form(action="")
+
+            +form("Radio:", "InputRadio")
+
+            +buttonCalc("Calcular", "")
+
+            p.mainCircle__area-form-p#ResultAreaCircle 
+
+    section.mainCircle__perimeter 
+        h3.mainCircle__perimeter--h3 Perimetro
+
+        form.mainCircle__perimeter-form(action="")
+
+            +form("Radio:", "InputRadio")
+
+            +buttonCalc("Calcular", "")
+
+            p.mainCircle__perimeter-form-p#ResultPerimeterCircle 
+                          
