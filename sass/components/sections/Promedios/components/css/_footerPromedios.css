@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.buttonNav {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #1976D2;
+  color: #FFFFFF;
+  width: 24.8rem;
+  height: 6.1rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.buttonNav:active {
+  background-color: #BBDEFB;
+}
+
+.footerPromedios {
+  grid-row: 3;
+  background-color: #1976D2;
+  font-size: 1.4rem;
+}
+.footerPromedios--credits {
+  display: inline-block;
+  margin: 23px 0 0 15px;
+  color: #FFFFFF;
+  line-height: 22px;
+}
+.footerPromedios--github {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  margin-block-start: 23px;
+  right: 15px;
+}
