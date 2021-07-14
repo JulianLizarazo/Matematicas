@@ -1,0 +1,26 @@
+include mixins.pug 
+
+main.mainSquare 
+    section.mainSquare__title 
+        +figureTitle("Area y Perimetro del Cuadrado", "/Matematicas/assets/square-image.svg", "Square image")
+
+    section.mainSquare__area
+        h3.mainSquare__area--h3 Area 
+
+        form.mainSquare__area-form(action="")
+            +form("Lado:", "InputLado")
+
+            +buttonCalc("Calcular", "")
+
+            p.mainSquare__area-form-p#ResultAreaSquare 
+    
+    section.mainSquarea__perimeter 
+        h3.mainSquare__perimeter--h3 Perimetro 
+
+        form.mainSquare__area-form(action="") 
+
+            +form("Lado:", "InputLadoP")
+
+            +buttonCalc("Calcular", "")
+
+            p.mainSquare__perimeter-form-p#ResultPerimeterSquare

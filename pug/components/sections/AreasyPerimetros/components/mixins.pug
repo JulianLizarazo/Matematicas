@@ -1,0 +1,10 @@
+mixin figureTitle(title,imgSrc,imgAlt)
+    h2.figureTitle #{title}
+    img.figureImg(src=imgSrc, alt=imgAlt)
+
+mixin form(text, inputID)
+    label.form__label(for=inputID) #{text}
+    input.form__input(id=inputID, type="number")
+
+mixin buttonCalc(text, onClick)
+    button.buttonCalc(type="button", onclic=onClick) #{text} 

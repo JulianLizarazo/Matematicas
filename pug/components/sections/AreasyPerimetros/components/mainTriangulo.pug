@@ -1,13 +1,4 @@
-mixin figureTitle(title,imgSrc,imgAlt)
-    h2.figureTitle #{title}
-    img.figureImg(src=imgSrc, alt=imgAlt)
-
-mixin form(text, inputID)
-    label.form__label(for=inputID) #{text}
-    input.form__input(id=inputID, type="number")
-
-mixin buttonCalc(text, onClick)
-    button.buttonCalc(type="button", onclic=onClick) #{text} 
+include mixins.pug
 
 
 main.mainTriangle
@@ -25,7 +16,7 @@ main.mainTriangle
             
             +buttonCalc("Calcular", "")
 
-            p.mainTriangle__area-form-p#ResultArea 
+            p.mainTriangle__area-form-p#ResultAreaTriangle 
 
     section.mainTriangle__perimeter 
         h3.mainTriangle__perimeter--h3 Perimetro
@@ -38,4 +29,4 @@ main.mainTriangle
             
             +buttonCalc("Calcular", "")
 
-            p.mainTriangle__perimeter-form-p#ResultPerimeter                    
+            p.mainTriangle__perimeter-form-p#ResultPerimeterTriangle                    

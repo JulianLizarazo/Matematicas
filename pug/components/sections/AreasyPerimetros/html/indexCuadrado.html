@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700&amp;display=swap">
+    <link rel="stylesheet" href="/Matematicas/sass/components/sections/AreasyPerimetros/css/mobileCuadrado.css">
+    <title>Areas y Perimetros</title>
+  </head>
+  <body> 
+    <header class="headerAP"> 
+      <div class="headerAP__info"> <img class="headerAP__info--icon" src="/Matematicas/assets/area.svg" alt="Areas Icon">
+        <p class="headerAP__info--p">Areas y Perímetros</p>
+      </div><img class="headerAP__hamburguer" src="/Matematicas/assets/hamburgericon.svg" alt="">
+    </header>
+    <main class="mainSquare"> 
+      <section class="mainSquare__title"> 
+            <h2 class="figureTitle">Area y Perimetro del Cuadrado</h2><img class="figureImg" src="/Matematicas/assets/square-image.svg" alt="Square image">
+      </section>
+      <section class="mainSquare__area">
+        <h3 class="mainSquare__area--h3">Area </h3>
+        <form class="mainSquare__area-form" action="">
+              <label class="form__label" for="InputLado">Lado:</label>
+              <input class="form__input" id="InputLado" type="number">
+              <button class="buttonCalc" type="button" onclic="">Calcular </button>
+          <p class="mainSquare__area-form-p" id="ResultAreaSquare"> </p>
+        </form>
+      </section>
+      <section class="mainSquarea__perimeter"> 
+        <h3 class="mainSquare__perimeter--h3">Perimetro </h3>
+        <form class="mainSquare__area-form" action=""> 
+              <label class="form__label" for="InputLadoP">Lado:</label>
+              <input class="form__input" id="InputLadoP" type="number">
+              <button class="buttonCalc" type="button" onclic="">Calcular </button>
+          <p class="mainSquare__perimeter-form-p" id="ResultPerimeterSquare"></p>
+        </form>
+      </section>
+    </main>
+    <footer class="footerAP">
+      <p class="footerAP--credits">@ 2021 by Julian Pinilla. <br> All rights reserved.</p><a class="github-link" href="https://github.com/JulianLizarazo" target="_blank"> <img class="footerAP--github" src="/Matematicas/assets/github.svg" alt="Github Icon"></a>
+    </footer>
+  </body>
+</html>
