@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700&amp;display=swap">
-    <link rel="stylesheet" href="/Matematicas/sass/components/sections/Promedios/css/mobilePromedios.css">
+    <link rel="stylesheet" href="/Matematicas/sass/components/sections/Promedios/css/mobileMMM.css">
     <title>Promedios</title>
   </head>
   <body>
@@ -16,8 +16,14 @@
         <p class="headerPromedios__info--p">Promedios</p>
       </div><img class="headerPromedios__hamburguer" src="/Matematicas/assets/hamburgericon.svg" alt="">
     </header>
-    <main class="mainPromedios"> 
-      <section class="mainPromedios__buttonPromedios"><a class="buttonNav" href="/Matematicas/pug/components/sections/Promedios/html/indexMMM.html">Media Aritmetica, Mediana y Moda</a><a class="buttonNav" href="#">Promedio Ponderado</a>
+    <main class="mainMMM"> 
+      <h3 class="mainMMM__title">Media aritmetica, Mediana y Moda </h3>
+      <section class="mainMMM__content"> 
+        <input class="mainMMM__content--input" type="text" placeholder="Inserte los números separados por una ,">
+        <p class="mainMMM__content--p" id="ResultMMM"></p>
+        <button class="mainMMM__content--button" type="button" onclick="">Media aritmetica</button>
+        <button class="mainMMM__content--button" type="button" onclick="">Mediana</button>
+        <button class="mainMMM__content--button" type="button" onclick="">Moda</button>
       </section>
     </main>
     <footer class="footerPromedios">

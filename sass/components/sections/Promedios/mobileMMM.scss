@@ -1,0 +1,12 @@
+@import "../../global";
+
+
+body{
+    font-family: $font-family;
+    display: grid;
+    grid-template-rows: 52px 528px 87px;
+}
+
+@import "./components/headerPromedios";
+@import "./components/mainMMM";
+@import "./components/footerPromedios";
