@@ -12,7 +12,7 @@ main.mainRectangle
             +form("Base:", "InputBase")
             +form("Altura:", "InputHeight")
 
-            +buttonCalc("Calcular", "")
+            +buttonCalc("Calcular", "resultAreaRectangle()")
 
             p.mainRectangle__area-form-p#ResultAreaRectangle 
 
@@ -20,10 +20,10 @@ main.mainRectangle
         h3.mainRectangle__perimeter--h3 Perimetro 
 
         form.mainRectangle__perimeter-form(action="")
-            +form("Base:", "InputBase")
-            +form("Altura:", "InputHeight")
+            +form("Base:", "InputBaseP")
+            +form("Altura:", "InputHeightP")
 
-            +buttonCalc("Calcular", "")
+            +buttonCalc("Calcular", "resultPerimeterRectangle()")
             
             p.mainRectangle__area-form-p#ResultPerimeterRectangle
 
