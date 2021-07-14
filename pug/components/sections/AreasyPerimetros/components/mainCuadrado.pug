@@ -10,7 +10,7 @@ main.mainSquare
         form.mainSquare__area-form(action="")
             +form("Lado:", "InputLado")
 
-            +buttonCalc("Calcular", "")
+            +buttonCalc("Calcular", "resultAreaSquare()")
 
             p.mainSquare__area-form-p#ResultAreaSquare 
     
@@ -21,6 +21,6 @@ main.mainSquare
 
             +form("Lado:", "InputLadoP")
 
-            +buttonCalc("Calcular", "")
+            +buttonCalc("Calcular", "resultPerimeterSquare()")
 
             p.mainSquare__perimeter-form-p#ResultPerimeterSquare
