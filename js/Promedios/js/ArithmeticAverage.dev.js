@@ -7,7 +7,7 @@ function arithmeticAverage(averageArray) {
     return acumulatedValue + newElement;
   });
   averageResult = averageResult / averageArray.length;
-  return averageResult;
+  return averageResult.toFixed(2);
 }
 
 function resultArithmeticValue() {

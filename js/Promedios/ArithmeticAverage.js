@@ -7,7 +7,7 @@ function arithmeticAverage(averageArray){
 
     averageResult = averageResult / averageArray.length;
     
-    return averageResult;
+    return averageResult.toFixed(2);
 
     
 }

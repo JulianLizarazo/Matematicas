@@ -21,7 +21,7 @@ function resultMedian(){
     var arrayValue = new Array();
 
     arrayValue = inputAverage.split(",").map(i=>Number(i));
-    
+
     arrayValue = arrayValue.sort(function(a,b){
         return a-b;
     });
