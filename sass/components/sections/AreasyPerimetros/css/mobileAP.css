@@ -137,6 +137,9 @@ html {
   align-items: center;
   margin: 0 1.4rem 0 1.4rem;
 }
+.headerAP__ul {
+  display: none;
+}
 .headerAP__info {
   display: flex;
   align-items: center;

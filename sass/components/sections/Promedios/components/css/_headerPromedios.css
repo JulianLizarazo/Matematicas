@@ -96,6 +96,9 @@ html {
   align-items: center;
   margin: 0 1.4rem 0 1.4rem;
 }
+.headerPromedios__ul {
+  display: none;
+}
 .headerPromedios__info {
   display: flex;
   align-items: center;

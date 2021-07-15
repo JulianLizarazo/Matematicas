@@ -75,6 +75,7 @@ html {
   top: 0;
   left: 0;
   transition: all 0.5s ease;
+  z-index: 20;
 }
 .cont-menu--logo {
   width: 100%;
@@ -127,6 +128,9 @@ html {
   justify-content: space-between;
   align-items: center;
   margin: 0 1.4rem 0 1.4rem;
+}
+.headerPromedios__ul {
+  display: none;
 }
 .headerPromedios__info {
   display: flex;
