@@ -30,12 +30,11 @@ html {
 }
 
 .opacity {
-  background-color: rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease;
 }
 
 .cont-menu {
-  background-color: gray;
+  background-color: #1976D2;
   box-shadow: 2px 0px 5px 2px #424242;
   width: 70%;
   height: 100vh;
@@ -44,39 +43,47 @@ html {
   left: 0;
   transition: all 0.5s ease;
 }
+.cont-menu--logo {
+  width: 100%;
+  display: flex;
+  margin-block-start: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.cont-menu--logo img {
+  width: 40px;
+  height: 40px;
+}
+.cont-menu--logo p {
+  margin-inline-start: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
 .cont-menu ul {
   padding: 100px 0px 20px 0px;
   list-style: none;
+  margin: 0 5px 0 5px;
+}
+.cont-menu ul a {
+  color: white;
+  text-decoration: none;
 }
 .cont-menu ul li {
-  color: white;
   display: block;
   font-size: 25px;
-  text-decoration: none;
-  padding: 10px 50px;
-}
-
-.headerAP {
-  grid-row: 1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 1.4rem 0 1.4rem;
-}
-.headerAP__info {
-  display: flex;
-  align-items: center;
-}
-.headerAP__info--icon {
-  width: 3rem;
-  height: 3rem;
-  margin-inline-end: 1.5rem;
-}
-.headerAP__info--p {
-  font-size: 1.8rem;
   font-weight: bold;
+  margin-block-end: 10px;
+  padding: 10px 50px;
+  text-align: center;
+  border-block-end: 4px solid #536DFE;
 }
-.headerAP__info--hamburguer {
-  width: 3rem;
-  height: 2.4rem;
+.cont-menu ul li:active {
+  background-color: #BBDEFB;
+}
+.cont-menu--footer {
+  margin: 100px 10px 0 5px;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
 }
