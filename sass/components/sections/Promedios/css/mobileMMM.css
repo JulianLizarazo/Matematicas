@@ -31,6 +31,96 @@ body {
   grid-template-rows: 52px 528px 87px;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.buttonNav {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #1976D2;
+  color: #FFFFFF;
+  width: 24.8rem;
+  height: 6.1rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.buttonNav:active {
+  background-color: #BBDEFB;
+}
+
+.active {
+  transform: translate(-600px);
+}
+
+.opacity {
+  transition: all 0.5s ease;
+}
+
+.cont-menu {
+  background-color: #1976D2;
+  box-shadow: 2px 0px 5px 2px #424242;
+  width: 70%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease;
+}
+.cont-menu--logo {
+  width: 100%;
+  display: flex;
+  margin-block-start: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.cont-menu--logo img {
+  width: 40px;
+  height: 40px;
+}
+.cont-menu--logo p {
+  margin-inline-start: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.cont-menu ul {
+  padding: 100px 0px 20px 0px;
+  list-style: none;
+  margin: 0 5px 0 5px;
+}
+.cont-menu ul a {
+  color: white;
+  text-decoration: none;
+}
+.cont-menu ul li {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  margin-block-end: 10px;
+  padding: 10px 50px;
+  text-align: center;
+  border-block-end: 4px solid #536DFE;
+}
+.cont-menu ul li:active {
+  background-color: #BBDEFB;
+}
+.cont-menu--footer {
+  margin: 100px 10px 0 5px;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
 .headerPromedios {
   grid-row: 1;
   display: flex;
