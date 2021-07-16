@@ -87,3 +87,8 @@ body {
   margin-block-start: 23px;
   right: 15px;
 }
+
+body {
+  display: grid;
+  grid-template-rows: 52px 615px 87px;
+}

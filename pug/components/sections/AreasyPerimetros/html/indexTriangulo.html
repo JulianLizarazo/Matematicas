@@ -7,14 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700&amp;display=swap">
-    <link rel="stylesheet" href="/Matematicas/sass/components/sections/AreasyPerimetros/css/mobileTriangulo.css">
+    <link rel="stylesheet" href="/Matematicas/sass/components/sections/AreasyPerimetros/css/mobileTriangulo.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="/Matematicas/sass/components/sections/AreasyPerimetros/responsive/css/laptopFigure.css" media="screen and (min-width: 769px)">
     <title>Areas y Perimetros</title>
   </head>
   <body> 
     <header class="headerAP"> 
       <div class="headerAP__info"> <img class="headerAP__info--icon" src="/Matematicas/assets/area.svg" alt="Areas Icon">
         <p class="headerAP__info--p">Areas y Perímetros</p>
-      </div><img class="headerAP__hamburguer" id="icon-menu" src="/Matematicas/assets/hamburgericon.svg" alt="">
+      </div>
+      <ul class="headerAP__ul"> 
+        <li class="headerAP__li"><a href="/Matematicas/pug/html/index.html">Inicio</a></li>
+        <li class="headerAP__li"> <a href="/Matematicas/pug/components/sections/AreasyPerimetros/html/indexAP.html">Areas y Perimetros</a></li>
+        <li class="headerAP__li"> <a href="/Matematicas/pug/components/sections/Promedios/html/indexPromedios.html">Promedios</a></li>
+      </ul><img class="headerAP__hamburguer" id="icon-menu" src="/Matematicas/assets/hamburgericon.svg" alt="">
     </header>
     <div class="cont-menu active" id="menu">
       <div class="cont-menu--logo"> <img src="/Matematicas/assets/Math-white.svg" alt="Math Logo">

@@ -81,3 +81,9 @@
     
     }
 }
+
+@media screen and (min-width: 769px) {
+    .active, .opacity, .cont-menu{
+        display: none;
+    }
+}

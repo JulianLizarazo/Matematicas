@@ -1,3 +1,4 @@
+@import "../css/mobileCuadrado.css";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -242,4 +243,71 @@ html {
   position: absolute;
   margin-block-start: 23px;
   right: 15px;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 52px 615px 87px;
+}
+
+.headerAP__ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.headerAP__li {
+  list-style-type: none;
+}
+.headerAP__li a {
+  text-decoration: none;
+  color: #212121;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-image: linear-gradient(#212121, #212121);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.headerAP__li a:hover, .headerAP__li a a:focus {
+  background-size: 100% 2px;
+}
+.headerAP__hamburguer {
+  display: none;
+}
+
+.figureTitle {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #1976D2;
+  margin-block-start: 2rem;
+}
+
+.figureImg {
+  width: 12rem;
+  height: 12rem;
+  margin-block-start: 4rem;
+}
+
+.mainSquare {
+  grid-template-rows: 500px;
+  grid-template-columns: 20% 40% 40%;
+}
+.mainSquare__title {
+  grid-row: 1;
+  grid-column: 1;
+  margin-block-start: 150px;
+}
+.mainSquare__area {
+  grid-row: 1;
+  grid-column: 2;
+  margin-block-start: 40px;
+}
+.mainSquare__perimeter {
+  grid-row: 1;
+  grid-column: 3;
+  margin-block-start: 40px;
+}
+.mainSquare__perimeter-form {
+  margin-block-start: 30px;
 }

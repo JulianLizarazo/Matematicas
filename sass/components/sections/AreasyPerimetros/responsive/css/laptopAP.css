@@ -243,3 +243,34 @@ html {
   margin-block-start: 23px;
   right: 15px;
 }
+
+body {
+  display: grid;
+  grid-template-rows: 52px 615px 87px;
+}
+
+.headerAP__ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.headerAP__li {
+  list-style-type: none;
+}
+.headerAP__li a {
+  text-decoration: none;
+  color: #212121;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-image: linear-gradient(#212121, #212121);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.headerAP__li a:hover, .headerAP__li a a:focus {
+  background-size: 100% 2px;
+}
+.headerAP__hamburguer {
+  display: none;
+}

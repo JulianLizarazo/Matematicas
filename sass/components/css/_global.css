@@ -24,3 +24,9 @@ html {
 .buttonNav:active {
   background-color: #BBDEFB;
 }
+
+@media screen and (min-width: 769px) {
+  .buttonNav:hover {
+    background-color: #536DFE;
+  }
+}

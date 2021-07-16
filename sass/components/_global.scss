@@ -36,3 +36,9 @@ html{
     }
     
 }
+
+@media screen and (min-width: 769px) {
+    .buttonNav:hover{
+        background-color: $accent-color;
+    }   
+}
