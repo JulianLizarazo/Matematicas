@@ -1,52 +1,6 @@
 @import "../mobileTriangulo.scss";
 @import "../responsive/laptopAP.scss";
-
-@mixin  responsiveMain() {
-    grid-template-rows: 500px;
-    grid-template-columns: 20% 40% 40%;
-    
-    
-
-    &__title{
-        grid-row: 1;
-        grid-column: 1;
-        margin-block-start: 150px;
-        
-        
-    }
-
-    &__area{
-        grid-row: 1;
-        grid-column: 2;
-        
-        margin-block-start: 40px;
-        
-    }
-
-    &__perimeter{
-        grid-row: 1;
-        grid-column: 3;
-        margin-block-start: 40px;
-
-        &-form{
-            margin-block-start: 30px;
-        }
-        
-    }
-}
-
-.figureTitle{
-    font-size: 2.4rem;
-    font-weight: bold;
-    color: $dark-primary-color;
-    margin-block-start: 2rem;
-}
-
-.figureImg{
-    width: 12rem;
-    height: 12rem;
-    margin-block-start: 4rem;
-}
+@import "./ReponsiveFigurePage.scss";
 
 .mainTriangle{
     @include responsiveMain();

@@ -25,6 +25,11 @@ html {
   background-color: #BBDEFB;
 }
 
+@media screen and (min-width: 769px) {
+  .buttonNav:hover {
+    background-color: #536DFE;
+  }
+}
 body {
   font-family: "Overpass", sans-serif;
   display: grid;
@@ -58,6 +63,11 @@ html {
   background-color: #BBDEFB;
 }
 
+@media screen and (min-width: 769px) {
+  .buttonNav:hover {
+    background-color: #536DFE;
+  }
+}
 .active {
   transform: translate(-600px);
 }
@@ -122,12 +132,20 @@ html {
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 769px) {
+  .active, .opacity, .cont-menu {
+    display: none;
+  }
+}
 .headerAP {
   grid-row: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 1.4rem 0 1.4rem;
+}
+.headerAP__ul {
+  display: none;
 }
 .headerAP__info {
   display: flex;
@@ -291,6 +309,11 @@ html {
   background-color: #BBDEFB;
 }
 
+@media screen and (min-width: 769px) {
+  .buttonNav:hover {
+    background-color: #536DFE;
+  }
+}
 .buttonAP {
   gap: 1.5rem;
 }

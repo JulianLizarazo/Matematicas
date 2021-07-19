@@ -1,9 +1,9 @@
-@import "../mobileCuadrado.scss";
+@import "../mobileRectangulo.scss";
 @import "../responsive/laptopAP.scss";
 @import "./ReponsiveFigurePage.scss";
 
 
-.mainSquare{
+.mainRectangle{
     @include responsiveMain();
      
 }

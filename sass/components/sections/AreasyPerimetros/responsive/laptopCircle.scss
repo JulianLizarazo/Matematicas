@@ -1,9 +1,7 @@
-@import "../mobileCuadrado.scss";
+@import "../mobileCirculo.scss";
 @import "../responsive/laptopAP.scss";
 @import "./ReponsiveFigurePage.scss";
 
-
-.mainSquare{
+.mainCircle{
     @include responsiveMain();
-     
 }
