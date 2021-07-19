@@ -44,3 +44,10 @@
     height: 12rem;
     margin-block-start: 4rem;
 }
+
+@media screen and (min-width: 769px){
+    .buttonCalc:hover{
+        background-color: $accent-color;
+        cursor: pointer;
+    }
+}

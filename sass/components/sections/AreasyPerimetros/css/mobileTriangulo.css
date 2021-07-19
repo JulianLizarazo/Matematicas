@@ -209,8 +209,11 @@ html {
   padding-inline-start: 1rem;
   border-radius: 15px;
   background-color: #BBDEFB;
-  opacity: 25%;
   color: #212121;
+}
+
+.form__input:focus {
+  outline: none;
 }
 
 .mainTriangle {

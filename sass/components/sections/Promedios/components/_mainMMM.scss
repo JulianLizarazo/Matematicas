@@ -23,6 +23,10 @@
             border-radius: 2rem;
             background-color: $light-primary-color;
             border: none;
+
+            &:focus{
+                outline: none;
+            }
         }
 
         &--p{

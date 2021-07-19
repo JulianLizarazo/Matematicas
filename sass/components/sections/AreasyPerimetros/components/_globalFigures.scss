@@ -94,8 +94,13 @@
      padding-inline-start: 1rem;
      border-radius: 15px;
      background-color: $light-primary-color;
-     opacity: 25%;
      color: $primary-text;
      
-     
- }
+       
+}
+
+.form__input:focus{
+    outline: none;
+}
+
+

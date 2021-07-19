@@ -209,8 +209,11 @@ html {
   padding-inline-start: 1rem;
   border-radius: 15px;
   background-color: #BBDEFB;
-  opacity: 25%;
   color: #212121;
+}
+
+.form__input:focus {
+  outline: none;
 }
 
 .mainTriangle {
@@ -631,6 +634,12 @@ body {
   margin-block-start: 4rem;
 }
 
+@media screen and (min-width: 769px) {
+  .buttonCalc:hover {
+    background-color: #536DFE;
+    cursor: pointer;
+  }
+}
 .mainTriangle {
   grid-template-rows: 500px;
   grid-template-columns: 20% 40% 40%;

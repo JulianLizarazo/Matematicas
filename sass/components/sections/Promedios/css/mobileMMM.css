@@ -186,6 +186,9 @@ html {
   background-color: #BBDEFB;
   border: none;
 }
+.mainMMM__content--input:focus {
+  outline: none;
+}
 .mainMMM__content--p {
   width: 27.5rem;
   margin: 1.5rem 0 1.5rem 0;
