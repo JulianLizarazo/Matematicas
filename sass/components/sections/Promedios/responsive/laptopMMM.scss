@@ -1,0 +1,47 @@
+@import "../mobileMMM.scss";
+@import "./globalResponsive.scss";
+
+.headerPromedios{
+    @include header();
+}
+
+.mainMMM{
+    
+    &__title{
+        font-size: 2.2rem;
+    }
+
+    &__content{
+
+        &--input{
+            width: 60%;
+            height: 20rem;
+            
+        }
+
+        &--p{
+            width: 60%;
+            height: 5.8rem;
+            margin-block-start: 3.5rem;
+            font-size: 2rem;
+        }
+
+        &--button{
+            margin-inline-end: 1.5rem;
+            width: 20vw;
+            height: 7rem;
+            font-size: 2.2rem;
+
+            &:first-child{
+                margin-inline-start: 1.5rem;
+            }
+        }
+        
+    }
+}
+
+.buttonBox{
+    display: flex;
+    margin-block-start: 4rem;
+   
+}

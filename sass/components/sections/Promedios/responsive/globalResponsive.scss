@@ -1,0 +1,37 @@
+@mixin header{
+    &__ul{
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__li{
+        list-style-type: none;
+
+        & a{
+            text-decoration: none;
+            color: $primary-text;
+            font-size: 1.8rem;
+            font-weight: bold;
+            background-image: linear-gradient($primary-text, $primary-text);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+
+            &:hover, a:focus{
+                background-size: 100% 2px;
+            }
+        }
+    }
+
+    &__hamburguer{
+        display: none;
+    }
+}
+
+body{
+    display: grid;
+    grid-template-rows: 52px 615px 87px;   
+}
+

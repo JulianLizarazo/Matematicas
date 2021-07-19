@@ -1,0 +1,6 @@
+@import "../mobilePromedios.scss";
+@import "./globalResponsive.scss";
+
+.headerPromedios{
+    @include header();
+}

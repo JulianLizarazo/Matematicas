@@ -265,3 +265,62 @@ html {
   margin-block-start: 23px;
   right: 15px;
 }
+
+body {
+  display: grid;
+  grid-template-rows: 52px 615px 87px;
+}
+
+.headerPromedios__ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.headerPromedios__li {
+  list-style-type: none;
+}
+.headerPromedios__li a {
+  text-decoration: none;
+  color: #212121;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-image: linear-gradient(#212121, #212121);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.headerPromedios__li a:hover, .headerPromedios__li a a:focus {
+  background-size: 100% 2px;
+}
+.headerPromedios__hamburguer {
+  display: none;
+}
+
+.mainMMM__title {
+  font-size: 2.2rem;
+}
+.mainMMM__content--input {
+  width: 60%;
+  height: 20rem;
+}
+.mainMMM__content--p {
+  width: 60%;
+  height: 5.8rem;
+  margin-block-start: 3.5rem;
+  font-size: 2rem;
+}
+.mainMMM__content--button {
+  margin-inline-end: 1.5rem;
+  width: 20vw;
+  height: 7rem;
+  font-size: 2.2rem;
+}
+.mainMMM__content--button:first-child {
+  margin-inline-start: 1.5rem;
+}
+
+.buttonBox {
+  display: flex;
+  margin-block-start: 4rem;
+}

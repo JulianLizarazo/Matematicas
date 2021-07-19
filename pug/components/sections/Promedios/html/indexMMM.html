@@ -7,14 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700&amp;display=swap">
-    <link rel="stylesheet" href="/Matematicas/sass/components/sections/Promedios/css/mobileMMM.css">
+    <link rel="stylesheet" href="/Matematicas/sass/components/sections/Promedios/css/mobileMMM.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="/Matematicas/sass/components/sections/Promedios/responsive/css/laptopMMM.css" media="screen and (min-width: 769px)">
     <title>Promedios</title>
   </head>
   <body>
     <header class="headerPromedios"> 
       <div class="headerPromedios__info"> <img class="headerPromedios__info--icon" src="/Matematicas/assets/average.svg" alt="Areas Icon">
         <p class="headerPromedios__info--p">Promedios</p>
-      </div><img class="headerPromedios__hamburguer" id="icon-menu" src="/Matematicas/assets/hamburgericon.svg" alt="Hamburguer Icon">
+      </div>
+      <ul class="headerPromedios__ul"> 
+        <li class="headerPromedios__li"><a href="/Matematicas/pug/html/index.html">Inicio</a></li>
+        <li class="headerPromedios__li"> <a href="/Matematicas/pug/components/sections/AreasyPerimetros/html/indexAP.html">Areas y Perimetros</a></li>
+        <li class="headerPromedios__li"> <a href="/Matematicas/pug/components/sections/Promedios/html/indexPromedios.html">Promedios</a></li>
+      </ul><img class="headerPromedios__hamburguer" id="icon-menu" src="/Matematicas/assets/hamburgericon.svg" alt="Hamburguer Icon">
     </header>
     <div class="cont-menu active" id="menu">
       <div class="cont-menu--logo"> <img src="/Matematicas/assets/Math-white.svg" alt="Math Logo">
@@ -35,9 +41,11 @@
       <section class="mainMMM__content"> 
         <input class="mainMMM__content--input" id="InputMMM" type="text" placeholder="Inserte los números separados por una ,">
         <p class="mainMMM__content--p" id="ResultMMM"></p>
-        <button class="mainMMM__content--button" type="button" onclick="resultArithmeticValue()">Media aritmetica</button>
-        <button class="mainMMM__content--button" type="button" onclick="resultMedian()">Mediana</button>
-        <button class="mainMMM__content--button" type="button" onclick="resultMode()">Moda</button>
+        <div class="buttonBox">
+          <button class="mainMMM__content--button" type="button" onclick="resultArithmeticValue()">Media aritmetica</button>
+          <button class="mainMMM__content--button" type="button" onclick="resultMedian()">Mediana</button>
+          <button class="mainMMM__content--button" type="button" onclick="resultMode()">Moda</button>
+        </div>
       </section>
     </main>
     <footer class="footerPromedios">
@@ -45,6 +53,6 @@
     </footer>
     <script src="/Matematicas/js/Promedios/ArithmeticAverage.js"></script>
     <script src="/Matematicas/js/Promedios/Median.js"> </script>
-    <script src="/Matematicas/js/Promedios/Mode.js"> </script>
+    <script src="/Matematicas/js/Promedios/Mode.js"></script>
   </body>
 </html>
