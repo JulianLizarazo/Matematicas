@@ -27,5 +27,5 @@ function resultMode() {
   });
   var modeValue = mode(arrayValue);
   var text = document.getElementById("ResultMMM");
-  text.innerText = "La mediana es: " + modeValue;
+  text.innerText = "La moda es: " + modeValue;
 }
